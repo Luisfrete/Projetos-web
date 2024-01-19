@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JavaScript</title>
+
+
+	<script>
+		//onclick = efetua a ação com apenas um click
+		//ondblclick = efetua a ação em dois clicks
+		//onmouseup = efetua a ação assim que o botão do mouse for solto
+		//onmouseover = efetua a ação quando o cursor apenas sobrepoem o elemento sem a necessidade de click
+		//onmouseout = efetua a ação quando o cursor deixa a area do elemento tambem sem a necessidade de click   
+
+		function acao1(){
+			alert('Elemento foi clicado')
+		}
+
+		function acao2(){
+			alert('O cursor do mouse deixou a região do elemento')
+		}
+
+	</script>
+</head>
+<body>
+	<div onclick="acao1()"  onmouseout="acao2()" style="background: #ccc; height: 150px; width: 150px; "></div>
+
+</body>
+</html>
+
+
